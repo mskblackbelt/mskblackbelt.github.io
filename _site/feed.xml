@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Musings on geek stuff by a chemistry electronics repairman.</title>
+    <description>This site serves as my musings on science, technology, and the repair work I  perform on a day-to-day basis. 
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Feb 2016 15:54:09 -0500</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 15:54:09 -0500</lastBuildDate>
+    <link>http://mskblackbelt.github.io/</link>
+    <atom:link href="http://mskblackbelt.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Feb 2016 16:57:05 -0500</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 16:57:05 -0500</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Mon, 01 Feb 2016 15:53:57 -0500</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
+        <link>http://mskblackbelt.github.io/jekyll/update/2016/02/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://mskblackbelt.github.io/jekyll/update/2016/02/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
