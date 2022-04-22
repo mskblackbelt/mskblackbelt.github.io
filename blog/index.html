@@ -38,8 +38,9 @@
 <p>Instructions can be found in the <a href="https://www.getlektor.com/docs/deployment/ghpages/">Lektor deployment docs</a>, but here's a brief summary:</p>
 <ul>
 <li><p>Add the following line to your Lektor project config file (<project name>.lektorproject) in the root folder of your site:
-  [servers.ghpages]
-  target = ghpages://your-user/your-repository</p>
+   [servers.ghpages]</p>
+<pre><code> target = ghpages://your-user/your-repository
+</code></pre>
 <ul>
 <li>If the repository is <code>username.github.io</code>, this will be published to your default user site (<code>https://username.github.io</code>). Otherwise, it will be published to the project-specific page (<code>https://username.github.io/project-name</code>)</li>
 </ul>
