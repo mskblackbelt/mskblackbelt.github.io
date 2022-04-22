@@ -3,3 +3,6 @@ name = Musings and Notes
 
 [packages]
 lektor-tags = 0.5.0
+
+[servers.ghpages]
+target = ghpages://mskblackbelt/mskblackbelt.github.io
