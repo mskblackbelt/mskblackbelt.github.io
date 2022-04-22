@@ -1,0 +1,26 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "postActions" : [
+        {
+          "script" : "lektor build",
+          "type" : "runScript"
+        }
+      ],
+      "script" : "lektor build"
+    },
+    "run" : {
+      "enabled" : true,
+      "postActions" : [
+        {
+          "script" : "lektor deploy",
+          "type" : "runScript"
+        }
+      ],
+      "script" : "lektor deploy"
+    }
+  },
+  "buildBeforeRunning" : true,
+  "openLogOnRun" : "start"
+}
