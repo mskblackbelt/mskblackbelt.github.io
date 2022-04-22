@@ -37,9 +37,9 @@
 <p>This site is hosted using <a href="https://pages.github.com.com/">GitHub Pages</a>, a hosting service available to all GitHub accounts (for free!). Setting up <a href="https://www.getlektor.com/">Lektor</a> to deploy to GitHub is very simple once you've configured your machine to <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">connect to GitHub using an SSH connection</a>.</p>
 <p>Instructions can be found in the <a href="https://www.getlektor.com/docs/deployment/ghpages/">Lektor deployment docs</a>, but here's a brief summary:</p>
 <ul>
-<li><p>Add the following line to your Lektor project config file (<project name>.lektorproject) in the root folder of your site:
-   [servers.ghpages]</p>
-<pre><code> target = ghpages://your-user/your-repository
+<li><p>Add the following line to your Lektor project config file (<project name>.lektorproject) in the root folder of your site:</p>
+<pre><code>[servers.ghpages]
+ target = ghpages://your-user/your-repository
 </code></pre>
 <ul>
 <li>If the repository is <code>username.github.io</code>, this will be published to your default user site (<code>https://username.github.io</code>). Otherwise, it will be published to the project-specific page (<code>https://username.github.io/project-name</code>)</li>
