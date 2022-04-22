@@ -1,0 +1,35 @@
+title: Hello Website
+---
+pub_date: 2022-04-19
+---
+author: Dustin Wheeler
+---
+tags: 
+
+web 
+site
+---
+body:
+
+## The site
+
+This site is meant to be a brain dump for the assorted projects and task I take on at Hunter College. I will likely end up being a collection of comments, tips and tricks for specific instruments, and rundowns of my experiences with instrumentation in various states of disrepair. Most of the content is meant to be an easy reference for myself, but hopefully someone else finds bits of it useful. 
+
+## How it's made
+
+This site was designed using [Lektor][lektor], a static site generator built in Python. The goals in doing this include those mentioned above (mostly helping me better document my work), learning some simple web design, and giving myself a simple software project to complete. 
+
+The steps to create the site are as follows:
+
+- Download and install Python (I use [pyenv][pyenv])
+- Create a virtual environment for the site using [Mamba][mamba]/[Anaconda][anaconda], [pyenv-virtualenv][pyenv-virtualenv], or [venv][venv] (I use [pyenv-virtualenv][pyenv-virtualenv], just to keep some consistency, but venv might be easiest, as it's built into modern versions of Python).
+- After activating the virtual environment, use run `pip install lektor` (or `mamba`/`conda`, if you went that route) to install the site generator. 
+- You can create a blank site template quickly by runnint `lektor quickstart` and following the prompts. Just like that, you have an empty site. Time to fill it with knowledge!
+
+
+[lektor]: https://www.getlektor.com/
+[pyenv]: https://www.getlektor.com/
+[mamba]: https://mamba.readthedocs.io/
+[anaconda]: https://www.anaconda.com/products/distribution
+[pyenv-virtualenv]: https://github.com/pyenv/pyenv-virtualenv
+[venv]: https://docs.python.org/3/library/venv.html
