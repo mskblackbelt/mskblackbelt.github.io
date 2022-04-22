@@ -4,3 +4,15 @@
 {% block body %}
   {{ render_blog_post(this) }}
 {% endblock %}
+
+{% if this.tags %}
+  <ul>
+    {% for t in this.tags -%}
+      <li>
+        <a href="{{ ('/blog@tag/' ~ t)|url }}">
+          All posts tagged {{ t }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
