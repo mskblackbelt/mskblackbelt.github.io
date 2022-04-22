@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../../../../static/style.css">
-<title>Hello Website — Musings and Notes</title>
+<title>Website publication — Musings and Notes</title>
 <body>
   <header>
     <h1>Musings and Notes</h1>
@@ -23,25 +23,27 @@
   
   <div class="blog-post">
   
-    <h2>Hello Website</h2>
+    <h2>Website publication</h2>
   
   <p class="meta">
     written by
     
       Dustin Wheeler
     
-    on 2022-04-19
+    on 2022-04-22
   </p>
-  <h2>The site</h2>
-<p>This site is meant to be a brain dump for the assorted projects and task I take on at Hunter College. I will likely end up being a collection of comments, tips and tricks for specific instruments, and rundowns of my experiences with instrumentation in various states of disrepair. Most of the content is meant to be an easy reference for myself, but hopefully someone else finds bits of it useful.</p>
-<h2>How it's made</h2>
-<p>This site was designed using <a href="https://www.getlektor.com/">Lektor</a>, a static site generator built in Python. The goals in doing this include those mentioned above (mostly helping me better document my work), learning some simple web design, and giving myself a simple software project to complete.</p>
-<p>The steps to create the site are as follows:</p>
+  <h2>GitHub Pages</h2>
+<p>This site is hosted using <a href="https://pages.github.com.com/">GitHub Pages</a>, a hosting service available to all GitHub accounts (for free!). Setting up <a href="https://www.getlektor.com/">Lektor</a> to deploy to GitHub is very simple once you've configured your machine to <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">connect to GitHub using an SSH connection</a>.</p>
+<p>Instructions can be found in the <a href="https://www.getlektor.com/docs/deployment/ghpages/">Lektor deployment docs</a>, but here's a brief summary:</p>
 <ul>
-<li>Download and install Python (I use <a href="https://www.getlektor.com/">pyenv</a>)</li>
-<li>Create a virtual environment for the site using <a href="https://mamba.readthedocs.io/">Mamba</a>/<a href="https://www.anaconda.com/products/distribution">Anaconda</a>, <a href="https://github.com/pyenv/pyenv-virtualenv">pyenv-virtualenv</a>, or <a href="https://docs.python.org/3/library/venv.html">venv</a> (I use <a href="https://github.com/pyenv/pyenv-virtualenv">pyenv-virtualenv</a>, just to keep some consistency, but venv might be easiest, as it's built into modern versions of Python).</li>
-<li>After activating the virtual environment, use run <code>pip install lektor</code> (or <code>mamba</code>/<code>conda</code>, if you went that route) to install the site generator. </li>
-<li>You can create a blank site template quickly by runnint <code>lektor quickstart</code> and following the prompts. Just like that, you have an empty site. Time to fill it with knowledge!</li>
+<li><p>Add the following line to your Lektor project config file (<project name>.lektorproject) in the root folder of your site:
+  [servers.ghpages]
+  target = ghpages://your-user/your-repository</p>
+<ul>
+<li>If the repository is <code>username.github.io</code>, this will be published to your default user site (<code>https://username.github.io</code>). Otherwise, it will be published to the project-specific page (<code>https://username.github.io/project-name</code>)</li>
+</ul>
+</li>
+<li>Once this is set up, you can deploy the current build of your site by executing <code>lektor build &amp;&amp; lektor deploy</code> from the command line. </li>
 </ul>
 
   </div>
