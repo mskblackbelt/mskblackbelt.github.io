@@ -2,8 +2,10 @@ title: Projects
 ---
 body:
 
-This is a list of the projects:
+This is a list of my projects:
 
-* Project 1
-* Project 2
-* Project 3
+- [Physical chemistry lab guides][chem357_resources]
+- Project 2
+- Project 3
+
+[chem357_resources]: https://github.com/mskblackbelt/Chem357
