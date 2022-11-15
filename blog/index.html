@@ -24,6 +24,50 @@
     
   <div class="blog-post">
   
+    <h2><a href="2022/11/f360-sketch-pattern/">TIL: Fusion360 sketch pattern edit</a></h2>
+  
+  <p class="meta">
+    written by
+    
+      Dustin Wheeler
+    
+    on 2022-11-15
+  </p>
+  <h2>TIL: How to edit a pattern object in a Fusion360 sketch</h2>
+<p>While mocking up a sample holder, I wanted to go back and edit a pattern object that was embedded in a sketch. Since sketch actions don't appear in the history scrubber (one item for the entire sketch), I couldn't go to my default action of right-click&gt;Edit on the object in the history scrubber.</p>
+<p>After a bit of searching, I found an <a href="https://www.autodesk.com/products/fusion-360/blog/quick-tip-edit-a-sketch-pattern/">old blog post</a> that hinted there was an answer… but the video showing the answer is missing. Instead, I came across a <a href="https://forums.autodesk.com/t5/fusion-360-design-validate/modify-sketch-pattern/td-p/5785980">post in the f360 forums</a> that described how and where to make the edit.</p>
+<ul>
+<li>First, open the sketch to start editing it</li>
+<li>Then, double click on the pattern icon (shown in the screenshot below). This will pull up the Edit Pattern dialog, and you can make the required changes. </li>
+</ul>
+<p><img src="2022/11/f360-sketch-pattern/screenshot_pattern_edit.png" alt="Screenshot of the icon to click for editing a pattern in a sketch."></p>
+
+  </div>
+
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="2022/11/lektor-attach-image/">TIL: Linking (and attaching) a local image in Lektor</a></h2>
+  
+  <p class="meta">
+    written by
+    
+      Dustin Wheeler
+    
+    on 2022-11-15
+  </p>
+  <p>While trying to post the [previous item][f360-sketch-pattern], I couldn't get the local image to display. I tried placing the PNG file in the post folder with the <code>contents.lr</code> file, then linking with <code>![alt-text](image.png)</code>, but couldn't get the page to render with the image.</p>
+<p>I found an old <a href="https://stackoverflow.com/questions/40263599/how-can-i-insert-images-in-lektor-markdown-sections">StackExchange response</a> that suggested placing the image in the <code>assets/static</code> folder, then setting the path to <code>/static/assets/image.png</code>, but that didn't net me any results.</p>
+<p>Oddly enough, when I view the web editor, the image is listed as an attachment to the page…</p>
+<p>As a next step, I started investigating how <a href="https://www.getlektor.com/docs/content/paths/">Lektor handles paths</a>. From a brief read on that page, it seems like the image should be able to reside in the same folder as the post <code>contents.lr</code> file, and the path just needs to be <code>image.png</code>, but this definitely doens't work. What am I doing wrong?</p>
+
+  </div>
+
+  
+    
+  <div class="blog-post">
+  
     <h2><a href="2022/4/site-publication/">Website publication</a></h2>
   
   <p class="meta">

@@ -1,0 +1,47 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../../../static/style.css">
+<title>TIL: Linking (and attaching) a local image in Lektor — Musings and Notes</title>
+<body>
+  <header>
+    <h1>Musings and Notes</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../../">Blog</a></li>
+        
+          <li><a href="../../../../projects/">Projects</a></li>
+        
+          <li><a href="../../../../about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>TIL: Linking (and attaching) a local image in Lektor</h2>
+  
+  <p class="meta">
+    written by
+    
+      Dustin Wheeler
+    
+    on 2022-11-15
+  </p>
+  <p>While trying to post the [previous item][f360-sketch-pattern], I couldn't get the local image to display. I tried placing the PNG file in the post folder with the <code>contents.lr</code> file, then linking with <code>![alt-text](image.png)</code>, but couldn't get the page to render with the image.</p>
+<p>I found an old <a href="https://stackoverflow.com/questions/40263599/how-can-i-insert-images-in-lektor-markdown-sections">StackExchange response</a> that suggested placing the image in the <code>assets/static</code> folder, then setting the path to <code>/static/assets/image.png</code>, but that didn't net me any results.</p>
+<p>Oddly enough, when I view the web editor, the image is listed as an attachment to the page…</p>
+<p>As a next step, I started investigating how <a href="https://www.getlektor.com/docs/content/paths/">Lektor handles paths</a>. From a brief read on that page, it seems like the image should be able to reside in the same folder as the post <code>contents.lr</code> file, and the path just needs to be <code>image.png</code>, but this definitely doens't work. What am I doing wrong?</p>
+
+  </div>
+
+
+  </div>
+  <footer>
+    &copy; Copyright 2022 by Dustin Wheeler.
+  </footer>
+</body>
