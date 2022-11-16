@@ -1,4 +1,4 @@
-title: TIL: Fusion360 sketch pattern edit
+title: TIL: How to edit sketch patterns in Fusion360
 ---
 pub_date: 2022-11-15
 ---
@@ -11,8 +11,6 @@ f360
 3d-design
 ---
 body:
-
-## TIL: How to edit a pattern object in a Fusion360 sketch
 
 While mocking up a sample holder, I wanted to go back and edit a pattern object that was embedded in a sketch. Since sketch actions don't appear in the history scrubber (one item for the entire sketch), I couldn't go to my default action of right-click>Edit on the object in the history scrubber. 
 

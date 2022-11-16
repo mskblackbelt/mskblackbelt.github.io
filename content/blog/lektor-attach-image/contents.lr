@@ -19,7 +19,7 @@ Oddly enough, when I view the web editor, the image is listed as an attachment t
 
 As a next step, I started investigating how [Lektor handles paths][lektor-paths]. From a brief read on that page, it seems like the image should be able to reside in the same folder as the post `contents.lr` file, and the path just needs to be `image.png`, but this definitely doesn't work. What am I doing wrong?
 
-## EDIT ##
+### --EDIT-- ###
 
 I'm so dumb… Because of the text cropping, I couldn't tell that the name of my image was misspelled… instead of `screenshot_pattern_edit.png`, it was named `screenshot_patter_edit.png`, and that missing "n" made all the difference in the world. Now that I spelled it correctly, the image is attaching correctly. I think I'll stick with Lektor now, since it was _entirely_ my fault. 
 
