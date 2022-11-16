@@ -24,7 +24,7 @@
     
   <div class="blog-post">
   
-    <h2><a href="2022/11/f360-sketch-pattern/">TIL: Fusion360 sketch pattern edit</a></h2>
+    <h2><a href="2022/11/f360-sketch-pattern/">TIL: How to edit sketch patterns in Fusion360</a></h2>
   
   <p class="meta">
     written by
@@ -33,8 +33,7 @@
     
     on 2022-11-15
   </p>
-  <h2>TIL: How to edit a pattern object in a Fusion360 sketch</h2>
-<p>While mocking up a sample holder, I wanted to go back and edit a pattern object that was embedded in a sketch. Since sketch actions don't appear in the history scrubber (one item for the entire sketch), I couldn't go to my default action of right-click&gt;Edit on the object in the history scrubber.</p>
+  <p>While mocking up a sample holder, I wanted to go back and edit a pattern object that was embedded in a sketch. Since sketch actions don't appear in the history scrubber (one item for the entire sketch), I couldn't go to my default action of right-click&gt;Edit on the object in the history scrubber.</p>
 <p>After a bit of searching, I found an <a href="https://www.autodesk.com/products/fusion-360/blog/quick-tip-edit-a-sketch-pattern/">old blog post</a> that hinted there was an answer… but the video showing the answer is missing. Instead, I came across a <a href="https://forums.autodesk.com/t5/fusion-360-design-validate/modify-sketch-pattern/td-p/5785980">post in the f360 forums</a> that described how and where to make the edit.</p>
 <ul>
 <li>First, open the sketch to start editing it</li>
@@ -61,7 +60,7 @@
 <p>I found an old <a href="https://stackoverflow.com/questions/40263599/how-can-i-insert-images-in-lektor-markdown-sections">StackExchange response</a> that suggested placing the image in the <code>assets/static</code> folder, then setting the path to <code>/static/assets/image.png</code>, but that didn't net me any results.</p>
 <p>Oddly enough, when I view the web editor, the image is listed as an attachment to the page…</p>
 <p>As a next step, I started investigating how <a href="https://www.getlektor.com/docs/content/paths/">Lektor handles paths</a>. From a brief read on that page, it seems like the image should be able to reside in the same folder as the post <code>contents.lr</code> file, and the path just needs to be <code>image.png</code>, but this definitely doesn't work. What am I doing wrong?</p>
-<h2>EDIT</h2>
+<h3>--EDIT--</h3>
 <p>I'm so dumb… Because of the text cropping, I couldn't tell that the name of my image was misspelled… instead of <code>screenshot_pattern_edit.png</code>, it was named <code>screenshot_patter_edit.png</code>, and that missing "n" made all the difference in the world. Now that I spelled it correctly, the image is attaching correctly. I think I'll stick with Lektor now, since it was <em>entirely</em> my fault.</p>
 <p><img src="2022/11/lektor-attach-image/screenshot_clipped.png" alt="Misspelled filename isn&#39;t shown because the window edge clips the end of the filename."></p>
 
