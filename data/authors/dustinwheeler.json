@@ -1,0 +1,10 @@
+{
+    "name": "Dustin Wheeler",
+    "image" : "img/felix.jpeg",
+    "bio": "Instrumentation Research Associate",
+    "social": [
+        { "github": "https://github.com/mskblackbelt" },
+        { "goodreads": "http://goodreads.com/mskblackbelt" },
+        { "mastodon": "https://scicomm.xyz/@mskblackbelt" }
+    ]
+}

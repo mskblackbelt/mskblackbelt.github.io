@@ -1,0 +1,4 @@
+---
+_model: blog
+---
+title: Blog

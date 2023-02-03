@@ -1,0 +1,28 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en-US"
+weight = 1
+rtl = false
+
+title = "Musings and Notes"
+# logo = "img/logo.png"
+description = "Thoughts from Dustin"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+dateFormat = "2 January 2006"
+
+[author]
+  name = "Dustin Wheeler"
+  image = "img/felix.jpeg"
+  headline = "How does this work?"
+  bio = "Chemist, polymathist, usually lost"
+  links = [
+  #   { email = "mailto:dwheeler@duck.com" },
+  #   { link = "https://link-to-some-website.com/" },
+    { github = "https://github.com/mskblackbelt" },
+    { mastodon = "https://scicomm.xyz/@mskblackbelt" },
+  #   { orcid = "https://orcid.org/userid" },
+  #   { researchgate = "https://www.researchgate.net/profile/username" },
+    { stack-overflow = "https://stackoverflow.com/users/userid/mskblackbelt" },
+  ]
