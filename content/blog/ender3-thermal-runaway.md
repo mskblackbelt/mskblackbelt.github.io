@@ -17,4 +17,5 @@ This afternoon, I decided to try to make some progress on the matter. Before pul
 [^fn1]: Creality has the _worst_ model distinctions… well, except for Monoprice, Flashforge, and every other inexpensive 3D printer manufacturer
 [^fn2]: I might still do this just because I like some of the features enabled with Marlin. 
 [^fn3]: Hopefully. I have to actually run one fo those prints now, setting it up as soon as this post is finished. 
+
 [reddit-soln]: https://www.reddit.com/r/ender3v2/comments/m8k5ig/comment/ilwo4sg/?utm_source=share&utm_medium=web2x&context=3
