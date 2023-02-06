@@ -14,7 +14,7 @@ I figured this was a one-time issue, so I resliced the print, sent it back over 
 This afternoon, I decided to try to make some progress on the matter. Before pulling the trigger on new firmware,[^fn2] I did a bit more reading on the matter on some Stackexchange and Reddit posts. One [post in particular][reddit-soln] suggested the most _ridiculous_ solution… ___obviously___ this couldn't possibly the the answer, right!? If you didn't click through, the poster suggested checking to make sure the power supply was set to the right voltage (115V/230V). The only reason this felt ridiculous was that I had to select my voltage and plug locale for the printer on checkout, so I assumed that those values would be correctly configured for my region. _Turns out,_ I was wrong. My power supply was set to 115V. A quick flip of the switch and I'm back in business~[^fn3]
 
 
-[fn1]: Creality has the _worst_ model distinctions… well, except for Monoprice, Flashforge, and every other inexpensive 3D printer manufacturer
-[fn2]: I might still do this just because I like some of the features enabled with Marlin. 
-[fn3]: Hopefully. I have to actually run one fo those prints now, setting it up as soon as this post is finished. 
+[^fn1]: Creality has the _worst_ model distinctions… well, except for Monoprice, Flashforge, and every other inexpensive 3D printer manufacturer
+[^fn2]: I might still do this just because I like some of the features enabled with Marlin. 
+[^fn3]: Hopefully. I have to actually run one fo those prints now, setting it up as soon as this post is finished. 
 [reddit-soln]: https://www.reddit.com/r/ender3v2/comments/m8k5ig/comment/ilwo4sg/?utm_source=share&utm_medium=web2x&context=3
