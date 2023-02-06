@@ -1,5 +1,5 @@
 ---
-title: "Creality Ender3 Neo Thermal Runaway"
+title: "Thermal Runaway error on Creality Ender 3 Neo"
 date: 2023-02-05
 author: Dustin Wheeler
 tags: [3d-printer, TIL]
