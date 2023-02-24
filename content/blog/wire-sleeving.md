@@ -1,5 +1,5 @@
 ---
-title: TIL– Making your own cable (_not_ coax!)
+title: TIL – Making your own cable (<em>not</em> coax!)
 date: 2023-02-24
 tags: [TIL, electronics, wiring, DIY]
 ---
