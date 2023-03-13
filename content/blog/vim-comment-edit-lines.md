@@ -7,7 +7,7 @@ tags: [TIL, vim]
 While my preferred (current) editor is [Nova](https://nova.app/), occasionally I have reason to edit in Vim, particularly when I'm working on files on a remote server. Recently, I found myself wanting to comment multiple lines in a Python file. On my personal machines, I've installed [NerdCommenter][nerdcomment], but that isn't always available.[^fn1] 
 
 [^fn1]: Using NerdCommenter, selected (or current) line can be commented/uncommented with the toggle `<Leader>c<space>` (or commented with `<Leader>cc` and uncommented with `<Leader>cu`)
-[nerdcomment]: https://github.com/preservim/nerdcommente
+[nerdcomment]: https://github.com/preservim/nerdcommenter
 
 For those occasions, basic Vim line editing skills come in to play. First, you can toggle "Visual Line mode" by hitting <kbd>Shift</kbd> + <kbd>V</kbd>, then highlighting the relevant lines. From there, doing a simple replacement (`:'<'>s/^/#/`,[^fn2] or whatever your comment replacement should be) comments out the selected lines. 
 
