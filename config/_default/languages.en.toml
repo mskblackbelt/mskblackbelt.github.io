@@ -1,9 +1,10 @@
-languageCode = "en"
-languageName = "English"
-displayName = "EN"
-isoCode = "en-US"
-weight = 1
-rtl = false
+[languages.en.params]
+  languageCode = "en"
+  languageName = "English"
+  displayName = "EN"
+  isoCode = "en-US"
+  weight = 1
+  rtl = false
 
 title = "Musings and Notes"
 # logo = "img/logo.png"
