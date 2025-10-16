@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Raspberry Pi on</title><link>https://mskblackbelt.github.io/tags/raspberry-pi/</link><description>Recent content in Raspberry Pi on</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025</copyright><lastBuildDate>Wed, 15 Oct 2025 15:36:09 -0400</lastBuildDate><atom:link href="https://mskblackbelt.github.io/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml"/><item><title>CircuitPython on RP2040 boards</title><link>https://mskblackbelt.github.io/blog/circuitpy_on_rp2040/</link><pubDate>Wed, 15 Oct 2025 15:36:09 -0400</pubDate><guid>https://mskblackbelt.github.io/blog/circuitpy_on_rp2040/</guid><description>&lt;p&gt;Finally getting around to practicing with &lt;a
+href="https://circuitpython.org"
+target="_blank"
+&gt;CircuitPython&lt;/a&gt; again. I figure I&amp;rsquo;ll document my journey a bit this time. I&amp;rsquo;m setting this up using Panic&amp;rsquo;s &lt;a
+href="https://nova.app"
+target="_blank"
+&gt;Nova text editor&lt;/a&gt;, but the instructions should apply to just about any text editor/terminal combination.&lt;/p&gt;</description></item></channel></rss>
