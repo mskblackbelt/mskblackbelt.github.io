@@ -36,7 +36,7 @@ while True:
 
 The NeoPixel included on these boards is _bright_ leading me to probe for the dimmest value I could set for brightness. Some experimentation showed that the cutoff was 0.00781. A little more investigation showed me that was 1 / 128, so the brighness is a 7-bit value. I've since changed the code to set the brightness with `led.brightness = 1 / 128`, making sure the numerator is an integer. 
 
-Notice the `print` command—it's possible to connect to the serial output of the board to see output data. To connect to the serial console from a terminal, use the `screen` command to connect to the relevant TTY. On my system (macOS 26 Tahoe), I list the files under `/dev/tty.*`. There's only one with a `usb` value, so I simply run `screen /dev/tty.usb<TAB>` which fills in the correct values and press return. Now, each time I save the `code.py` file, I get a message that says 
+Notice the `print` command—it's possible to connect to the serial output of the board to see output data. To connect to the serial console from a terminal, use the `screen` command to connect to the relevant TTY. On my system (macOS 26 Tahoe), I list the files under `/dev/tty.*`. There's only one with a `usb` value, so I simply run `screen /dev/tty.usb` <kbd>TAB</kbd> which fills in the correct values and press return. Now, each time I save the `code.py` file, I get a message that says 
 ```
 Code stopped by auto-reload. Reloading soon.
 soft reboot
@@ -47,12 +47,12 @@ Hello, world!
 ```
 and the NeoPixel starts cycling. 
 
-The `screen` utility has some odd interactions, so normal exit commands (Ctrl-C) don't work to exit. The `screen` manual is pretty comprehensive, but the section on [session management][screen-manual] shows how to detach (suspend) and quit (Ctrl-a Ctrl-\) sessions. 
+The `screen` utility has some odd interactions, so normal exit commands (<kbd>Ctrl</kbd>-<kbd>C</kbd>) don't work to exit. The `screen` manual is pretty comprehensive, but the section on [session management][screen-manual] shows how to detach (suspend) and quit (<kbd>Ctrl</kbd>-<kbd>a</kbd> <kbd>Ctrl</kbd>-<kbd>\\</kbd>) sessions. 
 
 [circuitpy]: https://circuitpython.org
 [nova]: https://nova.app
 [feather-2040]: https://www.adafruit.com/product/4884
-[xiao-2040]https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
+[xiao-2040]: https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
 [circuitpy-downloads]: https://circuitpython.org/downloads
 [circuitpy-libraries]: https://circuitpython.org/libraries
 [screen-manual]: https://www.gnu.org/software/screen/manual/screen.html#Session-Management
