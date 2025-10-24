@@ -36,7 +36,7 @@ while True:
 
 The NeoPixel included on these boards is _bright_ leading me to probe for the dimmest value I could set for brightness. Some experimentation showed that the cutoff was 0.00781. A little more investigation showed me that was 1 / 128, so the brighness is a 7-bit value. I've since changed the code to set the brightness with `led.brightness = 1 / 128`, making sure the numerator is an integer. 
 
-Notice the `print` command—it's possible to connect to the serial output of the board to see output data. To connect to the serial console from a terminal, use the `screen` command to connect to the relevant TTY. On my system (macOS 26 Tahoe), I list the files under `/dev/tty.*`. There's only one with a `usb` value, so I simply run `screen /dev/tty.usb` <kbd>TAB</kbd> which fills in the correct values and press return. Now, each time I save the `code.py` file, I get a message that says 
+Notice the `print` command—it's possible to connect to the serial output of the board to see output data. To connect to the serial console from a terminal, use the `screen` command to connect to the relevant TTY. On my system (macOS 26 Tahoe), I list the files under `/dev/tty.*`. There's only one with a `usb` value, so I simply run `screen /dev/tty.usb` <kbd>TAB</kbd> which fills in the correct values and press return.[^fn2] Now, each time I save the `code.py` file, I get a message that says 
 ```
 Code stopped by auto-reload. Reloading soon.
 soft reboot
@@ -58,4 +58,4 @@ The `screen` utility has some odd interactions, so normal exit commands (<kbd>Ct
 [screen-manual]: https://www.gnu.org/software/screen/manual/screen.html#Session-Management
 
 [^fn1]: Yes, there is also the MicroPython project. Apparently it's lighter weight, but less like standard Python. I haven't seen a reason (or had a project idea) that required me to be too sparse on resources, so I don't see a reason to work in MicroPython. If I'm going to move away from Python for something, might as well step to Arduino.
- 
+[^fn2]: If you have multiple `usb` entries, you may need to list them before and after plugging in your board to figure out which entry corresponds to the device.  
